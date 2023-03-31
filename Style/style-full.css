@@ -1,0 +1,125 @@
+/* 
+
+Autor : D43-0
+URI : https://github.com/D43-0
+Date : 30 Mar 2023
+
+*/
+
+/* Root Style HTML  */
+html {
+  background: #2e3440;
+  color: #eceff4;
+  font-family: Consolas;
+  font-size: 1.26563em;
+  padding: 25px;
+}
+
+/* Title Style  */
+h1 {
+  color: #eceff4;
+  font-size: 34px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.nametag {
+  color: #b48ead;
+}
+
+div > hr {
+  position: relative;
+  border: none;
+  height: 9px;
+  width: 45%;
+  border-radius: 10px;
+  background: #81a1c1;
+  margin-bottom: 35px;
+}
+
+/* Grid 4 Style */
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+  padding: 5px;
+  margin: auto;
+}
+.row > div {
+  padding: auto;
+}
+
+/* Card Style  */
+h2 {
+  padding: 9px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 9px;
+  color: #eceff4;
+  background: #5e81ac;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card {
+  background: #3b4252;
+  border-radius: 10px;
+  padding: 25px 25px 25px 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.link-text-card {
+  border-radius: 9px;
+  padding: 7px;
+  background: #434c5e;
+}
+
+summary {
+  display: block;
+  text-transform: lowercase;
+}
+
+hr {
+  position: relative;
+  border: none;
+  height: 2px;
+  width: 100%;
+  border-radius: 10px;
+  background: #bf616a;
+  margin: auto;
+}
+
+/* Footer Style  */
+footer {
+  padding: 1px;
+  background: #3b4252;
+  border-radius: 10px;
+  color: #eceff4;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer a {
+  color: #eceff4;
+  text-decoration: none;
+}
+
+/* test */
+
+ul {
+  text-indent: 10px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  margin: 7px 0px;
+  padding: 0px;
+}
+a {
+  color: #eceff4;
+  text-decoration: none;
+  text-transform: lowercase;
+}
