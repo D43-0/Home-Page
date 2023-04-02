@@ -8,7 +8,7 @@ Date : 30 Mar 2023
 
 /* Root Style HTML  */
 html {
-  background: #2e3440;
+  background: #3b4252;
   color: #eceff4;
   font-family: Consolas;
   font-size: 1.26563em;
@@ -19,7 +19,6 @@ html {
 h1 {
   color: #eceff4;
   font-size: 34px;
-  text-transform: uppercase;
   text-align: center;
   margin-bottom: 0px;
 }
@@ -32,7 +31,7 @@ div > hr {
   position: relative;
   border: none;
   height: 9px;
-  width: 45%;
+  width: 10%;
   border-radius: 10px;
   background: #81a1c1;
   margin-bottom: 35px;
@@ -58,7 +57,6 @@ h2 {
   color: #eceff4;
   background: #5e81ac;
   font-size: 24px;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -68,6 +66,8 @@ h2 {
   padding: 25px 25px 25px 25px;
   margin-bottom: 10px;
   margin-top: 0px;
+  width: 230px;
+  box-shadow: 0 3px 9px 0 rgba(46, 52, 64, 0.76);
 }
 
 .link-text-card {
@@ -76,9 +76,23 @@ h2 {
   background: #434c5e;
 }
 
+ul {
+  text-indent: 10px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  margin: 7px 0px;
+  padding: 0px;
+}
+a {
+  color: #eceff4;
+  text-decoration: none;
+}
+
 summary {
   display: block;
-  text-transform: lowercase;
 }
 
 hr {
@@ -99,27 +113,10 @@ footer {
   color: #eceff4;
   font-size: 12px;
   text-align: center;
+  box-shadow: 0 3px 9px 0 rgba(46, 52, 64, 0.76);
 }
 
 footer a {
   color: #eceff4;
   text-decoration: none;
-}
-
-/* test */
-
-ul {
-  text-indent: 10px;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-}
-li {
-  margin: 7px 0px;
-  padding: 0px;
-}
-a {
-  color: #eceff4;
-  text-decoration: none;
-  text-transform: lowercase;
 }
